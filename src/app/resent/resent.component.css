@@ -1,0 +1,124 @@
+.img1{
+  width: 390px;
+
+}
+.cardup , .carddown{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 15px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.btn{
+  cursor: pointer;
+}
+h2{
+  text-align: center;
+  margin-left: 0;
+}
+.one , .two ,.three{
+  width:400px;
+  height:450px;
+
+}
+.four{
+  width:400px;
+  height:450px;
+
+}
+@media (max-width: 640px ) {
+  .cardup{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .carddown{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+    margin-left: 0;
+  }
+  .one , .two ,.three{
+    max-width:100%;
+    max-height:100%;
+
+  }
+  .four{
+    max-width:100%;
+    max-height:100%;
+
+  }
+  .img1{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 920px ) {
+  .cardup{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .carddown{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+    margin-left: 0;
+
+  }
+  .one , .two ,.three{
+    max-width:100%;
+    max-height:100%;
+
+  }
+  .four{
+    max-width:100%;
+    max-height:100%;
+
+  }
+  .img1{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1372px ) {
+  .cardup{
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+  .carddown{
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+    margin-left: 0;
+
+  }
+  .one , .two ,.three{
+    max-width:100%;
+    max-height:100%;
+
+  }
+  .four{
+    max-width:100%;
+    max-height:100%;
+
+  }
+  .img1{
+    max-width: 100%;
+  }
+}

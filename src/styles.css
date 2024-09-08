@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #011401;
+  display: flex;
+  /* justify-content: center ; */
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 20px;
+
+}
